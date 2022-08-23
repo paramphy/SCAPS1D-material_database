@@ -1,0 +1,54 @@
+> SCAPS 3.3.10 ELIS-UGent: Version scaps3310.exe, dated 10-04-2021, 11:22:08
+> SCAPS Material parameters file, saved on 	23-08-2022 at 11:48:43
+> problem definition file loaded :
+> new problem
+> last saved: 	23-08-2022 at 11:48:43
+> 
+
+material name : TiO2
+d : 1.500e-01 [µm]
+v_th_n :	 1.000e+07	 1.000e+07	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+07	 1.000e+07	 0	 0	[cm/s]
+v_th_p :	 1.000e+07	 1.000e+07	 1.000e+01	 1.000e+01	 1.000e+01	 1.000e+07	 1.000e+07	 0	 0	[cm/s]
+eps :	    10.000000	    10.000000	    10.000000	    10.000000	    10.000000	    10.000000	    10.000000	 0	 0	[-]
+chi :	  4.200000	  4.200000	  1.000000	  1.000000	  1.000000	  4.200000	  4.200000	 0	 0	[eV]
+Eg :	  3.260000	  3.260000	  0.500000	  1.000000	  1.000000	  3.260000	  3.260000	 0	 0	[eV]
+Nc :	 2.000000e+17	 2.000000e+17	 1.000000e+01	 1.000000e+01	 1.000000e+01	 2.000000e+17	 2.000000e+17	 0	 0	[/cm^3]
+Nv :	 6.000000e+17	 6.000000e+17	 1.000000e+01	 1.000000e+01	 1.000000e+01	 6.000000e+17	 6.000000e+17	 0	 0	[/cm^3]
+mu_n :	 1.000000e+02	 1.000000e+02	 1.000000e-03	 1.000000e+00	 1.000000e+00	 1.000000e+02	 1.000000e+02	 0	 0	[cm^2/Vs]
+mu_p :	 2.500000e+01	 2.500000e+01	 1.000000e-03	 1.000000e+00	 1.000000e+00	 2.500000e+01	 2.500000e+01	 0	 0	[cm^2/Vs]
+Nd(uniform) :	 1.000000e+17	 1.000000e+17	 1.000000e+01	 1.000000e+01	 1.000000e+01	 1.000000e+17	 1.000000e+17	 0	 2	[/cm^3]
+Na(uniform) :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 2	[/cm^3]
+Tunneling in layer: 0 (0: no tunneling, 1: with tunneling)
+Relative electron mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+Relative hole mass :	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 1.000000e+00	 0	 0	[-]
+K_rad :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[cm^3/s]
+c_n_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[cm^6/s]
+c_p_auger :	 0.000000e+00	 0.000000e+00	 1.000000e+01	 1.000000e+01	 1.000000e+01	 0.000000e+00	 0.000000e+00	 0	 0	[m^6/s]
+absorption grading :	  380.36	  380.36	  250.00	  250.00	    0.00	  380.36	  380.36	 0	 0	[nm]
+absorptionmodel pure A material (y=0) : coefficients A and B (line inserted for compatibility with SCAPS until 3.3.06)
+A : 9.129e+06 [/(m*sqrt(eV))] (line inserted for compatibility with SCAPS until 3.3.06)
+B : 0.000e+00 [sqrt(eV)/m] (line inserted for compatibility with SCAPS until 3.3.06)
+absorptionmodel pure A material (y=0) : from model
+absorption model A, model : sqrt(hv-Eg) law (SCAPS traditional)
+absorption model A, value of parameter 1 :   1.000000e+05
+absorption model A, value of parameter 2 :   0.000000e+00
+absorption pure B material (y=1), model : coefficients A and B (line inserted for compatibility with SCAPS until 3.3.06)
+pure B material (y=1), A : 1.000e+05 [/(m*sqrt(eV))] (line inserted for compatibility with SCAPS until 3.3.06)
+pure B material (y=1), B : 0.000e+00 [sqrt(eV)/m] (line inserted for compatibility with SCAPS until 3.3.06)
+absorption pure B material (y=1), model : from model
+absorption model B, model : sqrt(hv-Eg) law (SCAPS traditional)
+absorption model B, value of parameter 1 :   1.000000e+05
+absorption model B, value of parameter 2 :   0.000000e+00
+
+srhrecombination
+
+type : neutral ( 1 level(s) )
+energy distribution : single
+Reference for defect energy :  0 ; 0 = above EV (SCAPS<2.7); 1 = above Ei; 2 = below EC
+Ekar :  0.1000 [eV]
+Nt(uniform) :	 1.000000e+15	 1.000000e+14	 1.000000e+20	 1.000000e+00	 1.000000e+00	 1.000000e+15	 1.000000e+15	 0	 2	[/cm^3]
+leveltype : neutral	
+sigma_n : 1.000e-15	[cm^2]
+sigma_p : 1.000e-15	[cm^2]
+Et :   0.600	[eV]
+
